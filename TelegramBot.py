@@ -14,7 +14,7 @@ my_bil = gen_lot()
 money = mon()
 smile = sm()
 
-API_TOKEN = '7831109025:AAEG0Uee-5KkYiJ4foxWcoDRPT2itno-bTM'
+API_TOKEN = 'Тут мой токен'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
